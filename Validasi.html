@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Validasi form javascript</title>
+    </head>
+    <body>
+        <center>
+            <h2>Validasi Register</h2>
+        </center>
+        <br/>
+        <form action="" method="post" onSubmit="return validasi_data(this)"></form>
+        <table border="0" width="400" align="center">
+            <tr>
+                <th align="left">Masukan Nama</th>
+                <td>:</td>
+                <td><input type="text" nama="nama" id="nama"></td>
+            </tr>
+            <tr>
+                <th align="left">Jenis Kelamin</th>
+                <td>:</td>
+                <td><input type="radio" name="jeniskelamin" value="L" id="jeniskelamin" checked="checked">Laki-Laki
+                    <input type="radio" name="jeniskelamin" value="P">Perempuan</td>
+            </tr>
+        </tr>
+          <tr>
+            <th align="left">Tahun Lahir</th>
+            <td>:</td>
+            <td><input type="date" name="tgl" id="tgl"></td>
+
+        </tr>
+        <tr>
+            <td colspan="3" align="center" height="50"><input type="submit" name="" id="" value="register"></td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>
